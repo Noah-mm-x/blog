@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>博客</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet/less" href="css/index.less">
+
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/md5.min.js"></script>
+    <script src="js/less.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="row">
+        <div class="col-xs-7 col-md-3">
+            <a id="brand" class="navbar-brand" title="晨梦" href="#"><b id="logo"></b><span>晨梦BLOG</span></a>
+        </div>
+        <div class="col-xs-5 col-md-9">
+
+        </div>
+    </div>
+</nav>
+<main>
+    <b id="bg"></b>
+    <div id="loginAndRegisterBox">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-3 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon">用户名</span>
+                    <input id="loginName" type="text" class="form-control" placeholder="请输入名字">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1  col-md-3 col-md-offset-1">
+                <div class="input-group">
+                    <span class="input-group-addon">密码</span>
+                    <input id="loginPwd" type="password" class="form-control" placeholder="请输入密码">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-3 col-xs-offset-4 col-sm-2 col-sm-offset-2 col-md-1 col-md-offset-1">
+                <button id="login-btn" class="btn btn-default">登录</button>
+            </div>
+            <div class="col-xs-3 col-sm-2 col-md-1 ">
+                <button id="register-btn" class="btn btn-default">注册</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3 col-xs-offset-8 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-2">
+               <div class="connection-info"></div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+<script src="js/main.js"></script>
+</html>

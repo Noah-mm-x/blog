@@ -1,0 +1,12 @@
+
+const StateCode={
+    ALLOW_LOGIN_OR_REGISTER:1,
+    NO_USER_NAME:2,
+    NO_PASSWORD:3,
+    PASSWORD_WRONG:4,
+    NO_SUCH_USER:5,
+    FAIL_TO_SAVE_USER_INFO:6,
+    FAIL_TO_CONNECT_DB:7,
+    LENGTH_IS_ZERO:8
+};
+module.exports=StateCode;

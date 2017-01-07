@@ -1,0 +1,70 @@
+html {
+  font-size: 62.5%;
+}
+//
+//div {
+//  border: 1px solid black;
+//}
+
+nav {
+  height: 4rem;
+  margin-bottom: 0 !important;
+  overflow: hidden;
+  #user-name, #welcome {
+    font-family: "Microsoft Yahei";
+    line-height: 4rem;
+    font-size: 2rem;
+  }
+  #welcome {
+    text-align: right;
+  }
+  #user-name{
+    width: 167px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 376px) {
+    .welcome-hide {
+      display: none;
+    }
+  }
+  #back-login {
+    font-family: "Microsoft Yahei";
+    line-height: 4rem;
+    font-size: 1.2rem;
+    color: black;
+  }
+  #back-login:hover {
+    color: rgba(52, 148, 223, 0.94);
+  }
+}
+
+main {
+  h1:nth-child(1){
+    margin-top: 2rem;
+  }
+  #title {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    margin:2rem auto;
+    font-size: 2rem;
+  }
+  #article{
+    resize: none;
+    display: block;
+    width: 100%;
+    height: 40rem;
+    margin: auto;
+    font-size: 3rem;
+  }
+  .info{
+    margin-top: 1.5rem;
+    color: red;
+    font-size: 1.4rem;
+  }
+  #submit{
+    margin-top: 1.5rem;
+  }
+}

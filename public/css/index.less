@@ -1,0 +1,61 @@
+//div{
+//  border: 1px solid black;
+//}
+nav {
+  height: 4rem;
+  margin-bottom: 0 !important;
+  overflow: hidden;
+  #brand {
+    float: left;
+    font-size: 12px;
+    line-height: 2.2rem;
+    #logo {
+      float: left;
+      display: block;
+      width: 58px;
+      height: 3.5rem;
+      background: url("/images/logo.png") no-repeat;
+      background-size: 100% 100%;
+      margin: -11px -4px;
+    }
+    span {
+      margin-left: 20px;
+    }
+  }
+}
+
+main {
+  width: 100%;
+  height: 45rem;
+  background: url("/images/1.jpg") no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  @media screen and (max-width: 415px) {
+    background: url("/images/2.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  #loginAndRegisterBox {
+    margin-top: 12rem;
+    font-family: "Microsoft Yahei";
+    div {
+      margin-top: 0.3rem;
+    }
+    span {
+      height: 4rem;
+      width: 40%;
+    }
+    input {
+      height: 4rem;
+      width: 112%;
+    }
+    #login-btn, #register-btn {
+      width: 100%;
+      height: 3.3rem;
+      margin-top: 1rem;
+    }
+  }
+  .connection-info {
+    color: red;
+  }
+}
+

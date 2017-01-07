@@ -1,0 +1,4 @@
+1、导入MySQL中的数据
+2、使用Webstorm打开程序，执行命令cnpm install
+3、配置运行环境
+4、打开浏览器，网址栏写入http://localhost:3000，打开即可
